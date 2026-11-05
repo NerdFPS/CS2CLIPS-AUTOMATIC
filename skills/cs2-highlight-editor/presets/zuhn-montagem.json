@@ -1,0 +1,17 @@
+{
+  "_sobre": "Base zuhn (legendas de comentário, replay slow-mo com letterbox, cor viva) com ritmo de montagem: cortes no beat, música em destaque, jogadas mais curtas, zoom leve no kill.",
+  "music": { "start": "drop", "volume": 1.0, "fadeOut": 1.5 },
+  "pacing": { "beatSync": true, "preRoll": 1.3, "postRoll": 0.6, "maxGap": 2.5 },
+  "audio": { "gameVolume": 0.6 },
+  "color": { "contrast": 1.07, "saturation": 1.2 },
+  "motionBlur": 3,
+  "effects": {
+    "slowmo": { "on": "last", "speed": 0.4, "before": 0.2, "after": 0.5, "interpolate": "blend", "letterbox": true },
+    "zoom": { "on": "all", "amount": 0.08, "duration": 0.3 },
+    "shake": { "on": "last", "px": 8, "duration": 0.2 },
+    "flash": { "on": "none" }, "rgbsplit": { "on": "none" }
+  },
+  "transitions": { "type": "cut" },
+  "text": { "killCounter": false, "labels": false, "captionSize": 0.048 },
+  "output": { "fadeIn": 0.3, "fadeOut": 1.0, "formats": ["16x9", "9x16"], "vertical": "crop" }
+}

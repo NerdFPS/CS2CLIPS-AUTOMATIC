@@ -1,0 +1,19 @@
+# vídeos, músicas e saídas nunca vão para o repositório
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.jpg
+*.png
+saida/
+_analise*/
+_render*/
+_lote/
+musicas/
+clipes/
+node_modules/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,140 @@
+{
+  "_sobre": "Vitrine com todos os recursos, calibrada pelo estudo de 121 edits de CS2 (≤1 min): cold open com o kill-herói, título curto, arco de energia, jogadas inteiras (≈13–16 cortes/min, plano ≥2 s), cortes no beat com blur-in e whoosh, velocity com rampa suave e letterbox, flash como pontuação (≤4/min), pulso no grave, motion blur, grade cinema + grão, legendas, contador e rótulo, impact + ducking, marca d’água e créditos no fim. Troque titleCard.text/watermark/outroCard pelo nick.",
+  "music": {
+    "start": "drop",
+    "volume": 0.95,
+    "fadeOut": 1.2
+  },
+  "titleCard": {
+    "text": "SEU NICK",
+    "sub": "4K • ACE",
+    "duration": 1,
+    "size": 0.24,
+    "color": "#EDEDED"
+  },
+  "words": null,
+  "sfx": {
+    "whoosh": 0.3,
+    "impact": 0.8,
+    "riser": 0.45,
+    "riserDuration": 1.7,
+    "duckHero": 0.5
+  },
+  "pacing": {
+    "beatSync": true,
+    "arc": true,
+    "preRoll": 1.1,
+    "minPreRoll": 0.4,
+    "postRoll": 0.5,
+    "maxGap": 4
+  },
+  "audio": {
+    "gameVolume": 0.5,
+    "muffleSlowmo": 900
+  },
+  "color": {
+    "contrast": 1.16,
+    "saturation": 0.92,
+    "warmth": 0.05,
+    "tealOrange": 0.15,
+    "vignette": true,
+    "sharpen": 0.4,
+    "grain": 0.25,
+    "brightness": -0.02
+  },
+  "motionBlur": 3,
+  "effects": {
+    "slowmo": {
+      "on": "last",
+      "speed": 0.4,
+      "before": 0.12,
+      "after": 0.35,
+      "interpolate": "blend",
+      "letterbox": true,
+      "ease": true,
+      "rampOut": {
+        "speed": 1.6,
+        "duration": 0.3
+      }
+    },
+    "zoom": {
+      "on": "all",
+      "amount": 0.08,
+      "duration": 0.3
+    },
+    "shake": {
+      "on": "last",
+      "px": 10,
+      "duration": 0.22,
+      "rot": 2
+    },
+    "flash": {
+      "on": "last",
+      "opacity": 0.45,
+      "duration": 0.07,
+      "maxPerMin": 4
+    },
+    "rgbsplit": {
+      "on": "last",
+      "px": 7,
+      "duration": 0.12
+    },
+    "bloom": {
+      "on": "last",
+      "amount": 0.3,
+      "duration": 0.28
+    },
+    "beatBump": {
+      "on": true,
+      "amount": 0.03,
+      "minStrength": 0.4,
+      "duration": 0.16
+    }
+  },
+  "transitions": {
+    "type": [
+      "hblur",
+      "zoomin",
+      "fadewhite",
+      "hblur",
+      "radial"
+    ],
+    "duration": 0.14,
+    "blurIn": true
+  },
+  "text": {
+    "killCounter": true,
+    "counterSize": 0.055,
+    "counterDuration": 0.5,
+    "labels": true,
+    "labelDuration": 1.4,
+    "size": 0.13,
+    "position": "center",
+    "borderW": 5,
+    "captionSize": 0.046
+  },
+  "output": {
+    "fadeIn": 0,
+    "fadeOut": 0.5,
+    "formats": [
+      "16x9",
+      "9x16"
+    ],
+    "vertical": "blur",
+    "youtube1440": true
+  },
+  "coldOpen": {
+    "text": "ACE",
+    "before": 0.5,
+    "after": 0.45,
+    "speed": 0.45
+  },
+  "outroCard": {
+    "made": "SEU NICK",
+    "duration": 2.6
+  },
+  "watermark": {
+    "text": "SEU NICK",
+    "position": "br"
+  }
+}

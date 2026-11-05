@@ -1,0 +1,16 @@
+{
+  "_sobre": "Reel curto e rápido (Instagram/TikTok, ref. edit 'GRUDA'): ~1,7 s por jogada, cortes escondidos em giros com borrão (hblur), motion blur forte, tom quente/dourado, fade do/para o preto, texto dourado logo após o kill.",
+  "music": { "start": "drop", "fadeOut": 1.0 },
+  "pacing": { "preRoll": 0.9, "postRoll": 0.5, "maxGap": 2.5 },
+  "audio": { "gameVolume": 0.45 },
+  "color": { "contrast": 1.06, "saturation": 1.05, "warmth": 0.22 },
+  "motionBlur": 4,
+  "effects": {
+    "slowmo": { "on": "none" },
+    "zoom": { "on": "all", "amount": 0.05, "duration": 0.3 },
+    "shake": { "on": "none" }, "flash": { "on": "none" }, "rgbsplit": { "on": "none" }
+  },
+  "transitions": { "type": "hblur", "duration": 0.2 },
+  "text": { "color": "#F2C230", "border": "#1A1200", "borderW": 4, "shadow": 3, "size": 0.11, "position": "lower", "killCounter": false, "labels": true, "labelDuration": 0.9 },
+  "output": { "fadeIn": 0.4, "fadeOut": 0.6, "formats": ["16x9", "9x16"], "vertical": "crop" }
+}

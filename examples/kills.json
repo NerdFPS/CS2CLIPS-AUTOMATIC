@@ -1,0 +1,22 @@
+{
+  "_instrucoes": "Um clipe por item, na ORDEM do vídeo (do mais fraco ao mais forte). t = segundo do clipe em que o kill acontece. analyze-clips.mjs gera um rascunho; confira com verify-kills.mjs.",
+  "clips": [
+    {
+      "file": "clipes/clipe_1.mp4",
+      "label": "",
+      "kills": [{ "t": 5.0 }, { "t": 7.4, "headshot": true }],
+      "texts": [{ "t": 4.2, "text": "calma..." }]
+    },
+    {
+      "file": "clipes/clipe_2.mp4",
+      "label": "4K",
+      "kills": [{ "t": 4.7 }, { "t": 6.1 }, { "t": 8.9, "fx": { "slowmo": true } }, { "t": 12.3 }]
+    },
+    {
+      "file": "clipes/clipe_ace.mp4",
+      "label": "ACE",
+      "kills": [{ "t": 4.9 }, { "t": 32.5 }, { "t": 34.1 }, { "t": 35.0 }, { "t": 36.1 }],
+      "texts": [{ "t": 35.2, "text": "falta um...", "duration": 0.85 }]
+    }
+  ]
+}

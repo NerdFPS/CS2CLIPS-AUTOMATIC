@@ -1,0 +1,15 @@
+{
+  "_sobre": "Estilo YouTuber de gameplay (canal zuhn, 20 vídeos analisados em 2026-11): ~11 cortes/min, plano mediano 3,3 s, cortes pela jogada (só 32% no beat), legendas de comentário embaixo, replay em slow-mo com letterbox no kill decisivo, cor natural levemente viva, áudio do jogo na frente.",
+  "music": { "start": "drop", "volume": 0.5, "fadeOut": 2.0 },
+  "pacing": { "beatSync": false, "preRoll": 2.2, "postRoll": 0.9, "maxGap": 3.5 },
+  "audio": { "gameVolume": 1.0 },
+  "color": { "contrast": 1.04, "saturation": 1.15 },
+  "motionBlur": 0,
+  "effects": {
+    "slowmo": { "on": "last", "speed": 0.35, "before": 0.25, "after": 0.6, "interpolate": "blend", "letterbox": true },
+    "zoom": { "on": "none" }, "shake": { "on": "none" }, "flash": { "on": "none" }, "rgbsplit": { "on": "none" }
+  },
+  "transitions": { "type": "cut" },
+  "text": { "killCounter": false, "labels": false, "captionSize": 0.048 },
+  "output": { "fadeIn": 0.5, "fadeOut": 1.2, "formats": ["16x9", "9x16"], "vertical": "crop" }
+}

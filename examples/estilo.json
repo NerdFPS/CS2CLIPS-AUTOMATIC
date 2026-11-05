@@ -1,0 +1,21 @@
+{
+  "preset": "frogling-velocity",
+  "name": "meu_highlight",
+  "_observacoes": [
+    "Exemplo: herda tudo do preset e muda só o que está aqui. Todas as opções: skills/cs2-highlight-editor/references/style-guide.md"
+  ],
+  "music": { "file": "musicas/minha_musica.mp3", "start": "drop", "volume": 1.0, "fadeOut": 1.2 },
+  "coldOpen": { "text": "ACE", "before": 0.45, "after": 0.4, "speed": 0.4 },
+  "titleCard": { "text": "SEU NICK", "duration": 0.8, "size": 0.24 },
+  "pacing": { "beatSync": true, "arc": true, "preRoll": 1.4, "postRoll": 0.7, "maxGap": 2.5 },
+  "audio": { "gameVolume": 0.45, "muffleSlowmo": 1200 },
+  "effects": {
+    "shake": { "on": "last", "px": 10, "duration": 0.22, "rot": 2 },
+    "flash": { "on": "last", "opacity": 0.4, "duration": 0.06, "maxPerMin": 4 }
+  },
+  "sfx": { "whoosh": 0.28, "impact": 0.8, "riser": 0.4, "duckHero": 0.5 },
+  "text": { "killCounter": false, "labels": true },
+  "outroCard": { "made": "SEU NICK", "handle": "@seu_canal" },
+  "watermark": { "text": "@seu_canal", "position": "br" },
+  "output": { "formats": ["16x9", "9x16"], "vertical": "blur", "youtube1440": true }
+}

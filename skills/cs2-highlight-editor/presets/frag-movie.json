@@ -1,0 +1,8 @@
+{
+  "_sobre": "Frag movie agressivo clássico: cortes no beat, slow-mo no último kill, zoom forte, tremida, flash e RGB split no headshot, flash entre clipes, contador 2K/3K/ACE.",
+  "music": { "start": "drop" },
+  "pacing": { "preRoll": 0.8, "postRoll": 0.4 },
+  "effects": { "slowmo": { "on": "last", "speed": 0.35 }, "zoom": { "amount": 0.18 }, "shake": { "px": 16 }, "flash": { "on": "headshots" }, "rgbsplit": { "on": "headshots" } },
+  "transitions": { "flashOnCut": true },
+  "color": { "contrast": 1.15, "saturation": 1.3 }
+}
