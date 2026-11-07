@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: destaque-ace-vertical-legenda
+expected_outcome: |
+  Baixa o destaque, detecta a rajada de kills (ACE perto de 1:06–1:31), gera o clipe 9:16 cobrindo a jogada,
+  revisa as legendas do Whisper antes do render (--plan-only) corrigindo palavras erradas, e mostra o resultado.
