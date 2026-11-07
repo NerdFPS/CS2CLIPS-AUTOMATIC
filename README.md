@@ -8,6 +8,14 @@ Você aponta seus clipes (Medal, ShadowPlay, Outplayed...) e diz o estilo. O Cla
 
 > Feito em português do Brasil. Funciona no Windows, macOS e Linux. GPU NVIDIA é opcional (acelera o render).
 
+## Duas skills neste repositório
+| Skill | Entrada | Saída |
+|---|---|---|
+| [`cs2-highlight-editor`](skills/cs2-highlight-editor) | seus clipes (Medal, ShadowPlay...) + um estilo | montagem/edit de highlights |
+| [`twitch-auto-clipper`](skills/twitch-auto-clipper) | a VOD da sua live na Twitch | cortes de 15–60 s com nota de viralização, vertical com facecam, legendas e relatório — [leia o README dela](skills/twitch-auto-clipper/README.md) |
+
+A `twitch-auto-clipper` usa os scripts da `cs2-highlight-editor`, então instale as duas (o `npx skills add` abaixo já instala ambas).
+
 ---
 
 ## O que ela faz
@@ -71,6 +79,7 @@ npx skills add NerdFPS/CS2CLIPS-AUTOMATIC -g -y
 ```bash
 git clone https://github.com/NerdFPS/CS2CLIPS-AUTOMATIC
 cp -r CS2CLIPS-AUTOMATIC/skills/cs2-highlight-editor ~/.claude/skills/
+cp -r CS2CLIPS-AUTOMATIC/skills/twitch-auto-clipper ~/.claude/skills/   # opcional: cortes automáticos da live da Twitch
 ```
 
 Abra uma conversa nova no Claude Code; a skill aparece sozinha quando você pede para editar clipes.

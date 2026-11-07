@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ultima-live-cortes-tiktok
+expected_outcome: |
+  Acha a VOD mais recente do canal configurado (ou explica que não há VOD salva e como ligar o armazenamento),
+  analisa com analyze-vod, gera até 4 clipes verticais 9:16 de 15–60 s com legenda e título, e entrega o
+  report.md com nota, motivo e link de cada momento na VOD, dizendo que a nota é ordenação por sinais e que nada foi postado.
